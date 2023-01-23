@@ -1,0 +1,66 @@
+1.what is git ?
+
+Git is a version control system that is used to track changes in computer files and coordinating work on those files among multiple people.
+
+2.What do you understand by the term 'version control system'?
+
+VCS, is a software tool that helps developers keep track of changes made to files and coordinate work on those files among multiple people. It allows developers to save versions of their work at different points in time, and keep track of the history of changes made to the files. This allows them to go back in time and see what changes were made, who made them, and when.
+
+VCS also allows for collaboration by allowing multiple people to work on the same files and merge their changes together. This is done through the use of branches, which are separate lines of development that can be worked on simultaneously and then merged back into the main branch.
+
+There are different types of version control systems, such as centralized and distributed. Centralized VCSs have a single "master" copy of the repository, and changes are exchanged through a central server. Distributed VCSs, like Git, don't have a single master copy but each developer has a copy of the repository on their own computer, and changes are exchanged through a process called "pushing" and "pulling."
+
+3.What is github?
+
+GitHub is a web-based platform that uses Git as its version control system. It is a centralized hosting service for Git repositories and provides a web interface for developers to manage and collaborate on their projects.
+
+With GitHub, developers can create remote repositories to store their code, as well as local copies on their own computers. They can then push their changes to the remote repository, and other team members can pull those changes down to their own local copies. This allows for easy collaboration and code sharing.
+
+4.Mention some  popular  git hosting services ?
+
+1. GitLab: A web-based Git repository manager that provides similar features to GitHub, such as code hosting, issue tracking, and pull requests. It also provides built-in continuous integration and deployment, as well as a built-in Wiki and Container Registry.
+
+2. Bitbucket: A Git and Mercurial code management service that provides code hosting, issue tracking, and pull requests. It also offers built-in support for continuous integration and deployment, and has a focus on team collaboration.
+
+3. SourceForge: A web-based service that provides Git hosting, as well as support for other version control systems like Subversion and Mercurial. It also offers project management tools and a built-in bug tracker.
+
+4. Beanstalk: A web-based Git hosting service that provides code hosting, collaboration tools, and deployment options. It also offers a built-in code review system and integration with other tools like JIRA and Slack.
+
+5. Visual Studio Team Services (VSTS): A web-based Git hosting service provided by Microsoft that focuses on team collaboration and offers a wide range of tools for software development, including code hosting, issue tracking, and continuous integration and deployment.
+
+6. AWS CodeCommit: A web-based Git hosting service provided by Amazon Web Services that allows developers to store, manage and collaborate on their Git repositories.
+
+
+5.Diffrent type of version control systems ?
+
+1. Centralized version control systems (CVCS): A centralized version control system uses a central server to store all the versions of the files. Developers need to check out files from the server, make their changes, and then check the files back in. This type of VCS allows for a single point of control and a single point of failure. Examples of centralized version control systems include CVS, Subversion, and Perforce.
+
+2. Distributed version control systems (DVCS): A distributed version control system allows developers to have a copy of the entire repository on their local machine, and these copies can be easily synchronized with the other copies on other machines. This allows for offline working and more flexibility. Examples of distributed version control systems include Git, Mercurial, and Bazaar.
+
+Both types of version control systems have their own advantages and disadvantages, and the choice of which type of VCS to use often depends on the needs of the project or the organization. Centralized VCSs are often preferred by organizations with strict security requirements, while distributed VCSs are often preferred by organizations that value flexibility and collaboration.
+
+6.what benfits comes with using git ?
+
+1. Version control: Git allows you to keep track of changes made to your code, making it easy to roll back to a previous version if something goes wrong.
+
+2. Collaboration: Git allows multiple people to work on the same codebase simultaneously, making it easy to merge changes and resolve conflicts.
+
+3. Backup: Git allows you to store your code on remote servers, providing a backup in case of data loss.
+
+4. Branching: Git allows you to create different branches of your code, making it easy to experiment with new features without affecting the main codebase.
+
+5. Open-source: Git is open-source software, which means it is free to use and can be easily integrated with other tools and systems.
+
+7.what is git repository ?
+
+A Git repository is a directory or storage space where Git stores the files, metadata and version history of a project. It is the basic unit of a Git project, and it contains all the necessary files and information for Git to manage the project.
+
+A Git repository is essentially a collection of files, along with a history of how those files have changed over time. When you create a new repository, it is initialized with a single branch called "master" and an empty commit history. As you make changes and commit them, the repository's commit history is updated, allowing you to roll back to previous versions of the project if necessary.
+You can create a new repository by running the command "git init" in the terminal and then adding files to the repository and committing changes. You can also clone an existing remote repository to your local machine using the command "git clone [repository URL]"
+
+8.how can you initalize a  repository in git ?
+To initialize a Git repository, you can use the command git init. This command creates a new repository in the current directory. Once the repository is initialized, you can start adding files and making commits to track changes to your project.
+
+You can also initialize a git repo in a specific directory by specifying the directory path after the command. For example: git init /path/to/myproject
+
+Once the repository is initialized, you can check the status of the repository using the command git status.
