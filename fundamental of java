@@ -1,0 +1,62 @@
+1.what is programing language ?
+
+A programming language is a set of instructions and rules used to create a software program. These instructions can be used to control the behavior of a computer, to communicate with other devices, or to create a specific type of output. Some examples of programming languages include C++, Python, and Java.
+
+2.why do we need programing language ?
+
+Programming languages are necessary for creating software programs and applications. They allow developers to write instructions that can be executed by a computer to perform specific tasks. Without programming languages, it would not be possible to create the vast array of software that we use in our daily lives, such as operating systems, web browsers, and mobile apps. Additionally, programming languages enable developers to create custom software to solve specific problems and automate certain processes, which can greatly increase efficiency and productivity.
+
+3.what are the features of java ?
+
+1)Object-oriented: Java is based on the object-oriented programming paradigm, which means that it allows developers to create and manipulate objects that have certain properties and methods.
+
+2)Platform-independent: Java code can be written once and run on any platform (Windows, Linux, Mac, etc.) that has a Java Virtual Machine (JVM) installed.
+
+3)Memory management: Java has built-in automatic memory management, which helps prevent memory leaks and other issues that can occur in other languages.
+
+4)Secure: Java is designed to be secure and prevent unauthorized access to a system.
+
+5)Multi-threaded: Java supports multi-threading, which allows for concurrent execution of multiple threads or tasks, making it well suited for building responsive and efficient applications.
+
+6)Built-in libraries: Java has a large number of built-in libraries that provide useful functions and classes for tasks such as data structure, I/O operations, networking, etc.
+
+7)Community: Java has a large and active community of developers that contribute to the language and its ecosystem by creating new libraries and frameworks, providing support and troubleshooting.
+
+
+4.what is an object ?
+
+An object in programming is an instance of a class. In object-oriented programming, a class is a blueprint or template for creating objects. An object has properties and methods that are defined by the class.
+
+Properties are the characteristics of the object, such as its name, age, color, etc. Methods are the actions that the object can perform, such as moving, speaking, or displaying information. Objects can interact with each other through their methods, and can also be used to model real-world entities such as people, animals, or cars.
+
+For example, in a program that simulates a zoo, you could have a class called "Animal" and create objects for each individual animal, such as "Lion" or "Giraffe", each with their own properties and methods.
+
+
+5.what is an class ?
+
+A class in programming is a blueprint or template for creating objects. It defines the properties and methods that the objects created from it will have. In object-oriented programming, classes are used to model real-world entities, such as people, animals, or cars.
+
+A class defines the structure of an object, including its data members (or properties) and its methods. The data members represent the characteristics of the object, such as its name, age, color, etc. The methods represent the actions that the object can perform, such as moving, speaking, or displaying information.
+
+For example, in a program that simulates a zoo, you could have a class called "Animal" which defines the properties and methods that all animals have, such as the ability to move or make noise. Then you can create objects for each individual animal, such as "Lion" or "Giraffe", that inherit all the properties and methods defined in the "Animals" class and have their own properties and methods.
+
+6.explain about main() method in java ?
+
+In Java, the main() method is the entry point of a program. It is a static method that is called by the Java Virtual Machine (JVM) when the program is executed. The main() method is defined within a class, and it must have the following signature:
+
+public static void main(String[] args) {
+
+}
+
+The keyword "public" means that the method can be accessed from anywhere in the program.
+The keyword "static" means that the method can be called without creating an instance of the class.
+The keyword "void" means that the method does not return any value.
+The parameter "String[] args" is an array of strings that can be passed to the program when it is executed from the command line. These arguments can be used to provide input to the program or to specify options.
+The code inside the main() method is executed when the program is run. This is where the instructions for the program are defined, such as declaring variables, creating objects, and calling other methods. Once the instructions in the main() method are completed, the program terminates.
+
+It's also worth mentioning that the Java specification doesn't mandate that the name of the main method should be main, it just needs to be a method, with a specific signature and should be called by the JVM to start the execution of the program.
+
+
+
+
+
