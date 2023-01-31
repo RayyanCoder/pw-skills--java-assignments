@@ -1,0 +1,52 @@
+1.how to create a object in java ?
+
+1) Declare a variable of the class type.
+2) Use the new operator to allocate memory for the object.
+3) Initialize the object using the class constructor.
+
+ClassName objectName = new ClassName();
+
+class Car {
+  // class body
+}
+
+Car myCar = new Car();
+
+2.what is used of new key word in java ?
+
+The new keyword in Java is used to dynamically allocate memory for an object on the heap at runtime. 
+The memory allocation is done using a constructor of a class. 
+The new keyword creates an instance of an object, initializes it and returns a reference to the memory location where the object was created.
+
+class Car {
+  // class body
+}
+
+Car myCar = new Car();
+
+3.what are the diffrent types of varaibles in java ?
+
+1)Instance Variables: Variables declared within a class and outside of any method. Each instance of a class has its own copy of instance variables. They are used to store object-specific information.
+
+2)Static Variables: Variables that are declared with the static keyword. They are shared among all instances of a class and are stored in a single memory location. They are used to store class-specific information.
+
+3)Local Variables: Variables declared within a method. They are used to store temporary data during the execution of a method. They are stored on the stack and are only accessible within the method in which they are declared.
+
+4.what is the diffrent between instance varaible and local varaible ?
+
+Memory Location: Instance variables are stored in the heap memory and are associated with an instance of a class, while local variables are stored in the stack memory and are associated with a method.
+
+Accessibility: Instance variables can be accessed by any method within a class, while local variables can only be accessed within the method in which they are declared.
+
+Initialization: Instance variables have a default value when an object is created, while local variables must be explicitly initialized before use.
+
+Lifetime: The lifetime of instance variables is the same as the lifetime of the object, while the lifetime of local variables is only within the scope of the method in which they are declared.
+
+Keyword: Instance variables are declared within a class and outside of any method, while local variables are declared within a method.
+
+5.in which area of memory is allocated for instance variables and local variables ?
+
+Instance variables are stored in the heap memory and are associated with an instance of a class, while local variables are stored in the stack memory and are associated with a method.
+
+6.what is method overloading ?
+Method overloading is a feature in OOP where multiple methods in a class have the same name but different parameters. This allows for more than one method to perform the same task with a different number or type of parameters.
